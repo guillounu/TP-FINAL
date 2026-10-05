@@ -1,0 +1,70 @@
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+
+}
+label{
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+form{
+    color: var(--color-5);
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    background-color: var(--color-3);
+    padding: 2rem;
+    margin: 30px;
+    border-radius: 13px;
+    box-shadow: 0 4px 12px rgba(165, 22, 22, 0.8);
+
+}
+
+input, select, textarea, fieldset{
+    font-family: var(--font-secondary);
+    font-size: 1rem;
+    padding: 0.7rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: var(--color-2);
+
+}
+
+input:focus, select:focus, textarea:focus{
+    outline: 2px solid var(--color-5);
+
+
+}
+
+.btn-primary{
+    background-color: var(--color-2);
+    color: var(--color-4);
+}
+
+.btn-secondary{
+background-color: var(--color-5);
+color: var(--color-4);
+}
+.botones{
+    display: inline-block;
+}
+
+.btn{
+    font-family: var(--font-body);
+    padding: 0.8rem 1.8rem;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn-secondary:hover{
+background-color: var(--color-4);
+color: var(--color-5);
+}
+.btn-primary:hover{
+    background-color: var(--color-4);
+    color: var(--color-2);
+}

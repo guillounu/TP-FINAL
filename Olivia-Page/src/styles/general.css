@@ -1,0 +1,125 @@
+:root {
+   --max-width: 1024px;
+   --color-1: #9c4fd3;
+   --color-2: #F4A4EE;
+   --color-3: #F4A4C5;
+   --color-4: #FDF7FD;
+   --color-5:#4e1377;
+   --spotify-button: #1DB954;
+   --spotify-text:#191414;
+   --max-widht: 1100px;
+   --font-primary: "Marck Script", cursive;
+   --font-secundary: "Monda", sans-serif;
+   --font-spotify: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+body {
+   color: var(--color-1);
+   line-height: 1.6;
+   min-height: 10vh;
+   display: flex;
+   flex-direction: column;
+   font-family: var(--font-secundary);
+
+
+}
+
+
+a {
+   text-decoration: none;
+   color: var(--color-5);
+}
+
+ul {
+   list-style: none;
+}
+header {
+   background-color: var(--color-3);
+   padding: 1rem 2rem;
+   top: 0;
+   z-index: 10;
+   color: var(--color-5);
+
+}
+
+.nav-options {
+   display: flex;
+   justify-content: space-around;
+   align-items:baseline;
+   max-width: var(--max-widht);
+   margin: 0 auto;
+   flex-wrap: wrap;
+   gap: 1rem;
+   color: var(--color-5);
+   font-family: var(--font-secundary);
+   font-size: 1.5rem;
+}
+
+.barra-nav {
+   font-family: var(--font-primary);
+   font-size: 3rem;
+   font-weight: 700;
+   color: var(--color-5);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+a:hover{
+   color: var(--color-4);
+}
+   
+
+
+.spotify-btn {
+   background-color: var(--spotify-button);
+   color: var(--spotify-text);
+   width: 12rem;
+   padding: 0.7rem;
+   margin: 1rem;
+   border-radius: 100px;
+   display: flex;
+   justify-content: center;
+   align-items:first baseline;
+   gap: 0.5rem;
+   font-style: normal;
+   font-family: var(--font-spotify);
+   font-weight: bold;
+   }
+
+  footer{
+   background-color: var(--color-3);
+   color: var(--color-1);
+   text-align: center;
+   padding: 2.5rem 1rem;
+   margin-top: auto;
+  }
+
+  .footer-nav{
+   color: var(--color-5);
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 1rem;
+   font-weight: 3px;
+
+  }
+
+  .barra-nav i{
+   color: var(--color-5);
+   margin-right: 0.4rem;
+  }
+
+  .footer-social{
+   color: var(--color-5);
+  }
+

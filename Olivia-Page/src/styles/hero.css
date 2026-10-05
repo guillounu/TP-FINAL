@@ -1,0 +1,37 @@
+:root {
+   --max-width: 1024px;
+   --color-1: #9c4fd3;
+   --color-2: #F4A4EE;
+   --color-3: #F4A4C5;
+   --color-4: #FDF7FD;
+   --color-5:#4e1377;
+   --spotify-button: #1DB954;
+   --spotify-text:#191414;
+   --max-widht: 1100px;
+   --font-primary: "Marck Script", cursive;
+   --font-secundary: "Monda", sans-serif;
+   --font-spotify: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+    background-image: url(../assets/img/HEADER-FINAL.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 3rem;
+    align-items: flex-start;
+    text-align: left;
+
+}
+
+.hero p {
+    max-width: 50%;
+    font-size: 120%;
+}
+
+
+

@@ -1,0 +1,73 @@
+
+
+.card-title {
+    font-family: var(--font-secundary);
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem;
+    color: var(--color-3);
+    text-shadow: 0 4px #191414 ;
+}
+
+.musica-section {
+  background-image: url(../assets/img/background-cards.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 1rem;
+}
+
+.card-section {
+    max-width: var(--max-widht);
+    margin: 0 auto;
+    padding: rem;
+    }
+
+.cards-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    }
+
+.card {
+  background-color: var(--color-3);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(177, 121, 121, 0.8);
+  flex: 1 1 280px;
+  max-width: 320px;
+display: flex;
+flex-direction: column;
+}
+
+.card img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-body {
+padding: 1.5rem;
+display: flex;
+flex-direction: column;
+gap:0.8rem;
+flex: 1;
+}
+
+.card-body p {
+    flex: 1;
+    font-size: 1rem;
+}
+
+.musica-section h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+font-size: 45px;
+background-color: var(--color-3);
+color: var(--color-4);
+margin-bottom: 20px;
+
+}
+    

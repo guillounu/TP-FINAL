@@ -1,0 +1,41 @@
+.gallery-section{
+    max-width: var(max-width);
+    margin: 0 auto;
+    padding: 1rem 2rem 3rem;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+
+}
+
+.gallery-item{
+    flex: 1 1 220px;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s;
+    max-width: 80vw;
+    }
+
+    .gallery-item:hover{
+        transform: scale(1.1);
+    }
+
+    body{
+        background-color: rgb(252, 204, 228);
+    }
+
+    h1{
+        display: flex;
+        justify-content: center;
+        color: var(--color-5);
+        margin-top: 3rem;
+    }
+
+    p{
+        margin: 2rem;
+        color: var(--color-5);
+    }
