@@ -1,5 +1,7 @@
 import {useState} from 'react'
 import Cuestionario from '../Components/Cuestionario'
+
+//array de datos para que el quizz se llene con los inputs sin tener que llamar más de una vez al componente
 const quizzInputs = [
    { id: 1,
     typeQuestion: 'oliviasName',
@@ -29,7 +31,7 @@ const quizzInputs = [
 
   
 ]
-
+//función que renderiza el quizz y maneja los estados de los inputs
 function Quizz() {
     const [answers, setAnswers] = useState({
         oliviasName: '',
@@ -53,6 +55,7 @@ const handleSubmit = (e) => {
     <div>
     <h1 className='page-title'>¿Cuánto sabes de Olivia?</h1>
     <p>¡ATENCIÓN! Esta sección es únicamente para verdaderos fans... ¿Te animas a intentarlo?</p>
+    {/*sección del quizz, que se llena con el array de datos*/}
     <form onSubmit={handleSubmit} className='quizz-form'>
         {quizzInputs.map((input) => (
             <Cuestionario

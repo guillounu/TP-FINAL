@@ -1,3 +1,4 @@
+//imports de las imagenes que pertenecen a la galería
 import SOURwt1 from "../assets/img/ORBR005.jpg";
 import GUTSwt1 from "../assets/img/GUTS2.jpg";
 import SOURwt2 from "../assets/img/ORBR008.jpg";
@@ -7,6 +8,7 @@ import SOURwt5 from "../assets/img/SOUR-TOUR3.jpg";
 import SOURwt6 from "../assets/img/SOUR4.jpg";
 import GUTSwt2 from "../assets/img/GUTS-Argentina.jpg";
 
+//array de datos para que la galería se llene con las imágenes sin tener que llamar más de una vez al componente
 const tourImages = [
   { id: 1, src: SOURwt1, alt: "SOUR worldtour" },
   { id: 2, src: GUTSwt1, alt: "GUTS worldtour" },
@@ -34,7 +36,7 @@ function Tours() {
         realizar 102 conciertos, sumando a la lista Asia, America del sur y
         Oceanía.
       </p> 
-
+{/*sección de la galería, que se llena con el array de datos*/}
       <Gallery images={tourImages} />
     </main>
   );

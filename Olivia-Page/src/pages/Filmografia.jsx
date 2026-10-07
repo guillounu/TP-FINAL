@@ -1,3 +1,5 @@
+
+//imports de las img que pertenecen a las cards
 import CardVer2 from "../Components/CardVer2";
 import coverAmericanGirl from "../assets/img/Americangirl.jpg";
 import coverBizardvaark from "../assets/img/Bizaardvark.webp";
@@ -5,6 +7,7 @@ import coverHSMtm from "../assets/img/hsm.webp";
 import coverDh2u from "../assets/img/drivinghome2you.jpg";
 import coverGutsWT from "../assets/img/GUTSWT.jpg";
 
+//array de datos para que la cards se llenen solas, sin tener que llamar más de una vez al componente
 const moviesInfo = [
   {
     id: 1,
@@ -58,7 +61,7 @@ function Filmografia() {
         Aparte de su carrera como cantante, Olivia, comenzó su camino artistico
         como actriz; acá podes conocer las producciones en las que participó.
       </p>
-
+{/* sección de las cards que se llenan con el array de datos */}
       <section className="filmografía">
         {moviesInfo.map((movie) => (
           <CardVer2

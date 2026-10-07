@@ -38,6 +38,8 @@ function home() {
      <section className="musica-section">
         <h2>Su música</h2>
 
+        {/*sección de cards, llamadas por componente y rellenadas manualmente*/}
+
         <section className="cards-section">
           <div className="cards-grid">
             <CardVer1
