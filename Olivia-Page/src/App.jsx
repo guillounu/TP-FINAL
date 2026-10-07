@@ -3,6 +3,7 @@ import Layout from './Components/Layout';
 import Home from './pages/home';
 import Tours from './pages/Tours';
 import Filmografia from './pages/Filmografia';
+import Quizz from './pages/Quizz';
 
  function App() {
   return (
@@ -11,6 +12,7 @@ import Filmografia from './pages/Filmografia';
         <Route index element={<Home />} />
        <Route path="/Giras" element={<Tours />} />
        <Route path="/Filmografia" element={<Filmografia />} />
+       <Route path="/Quizz" element={<Quizz />} />
       </Route>
 
     </Routes>
