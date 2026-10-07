@@ -7,7 +7,8 @@ import coverYSPSFAGSIL from "../assets/img/PORTADA YSPSFAGSIL ALTERNATIVA.jpg";
 
 function home() {
   return (
-    <main>
+    <article> 
+      <main>
       <section className="hero">
         <h2>¿Quién es Olivia Rodrigo?</h2>
         <p>
@@ -32,7 +33,9 @@ function home() {
           Ir a Spotify
         </a>
       </section>
-      <section className="musica-section">
+     
+    </main>
+     <section className="musica-section">
         <h2>Su música</h2>
 
         <section className="cards-section">
@@ -65,7 +68,7 @@ function home() {
           </div>
         </section>
       </section>
-    </main>
+    </article>
   );
 }
 
